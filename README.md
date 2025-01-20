@@ -22,14 +22,15 @@ Le test de charge utilise une suite de tests Jest qui envoie des requêtes GET �
 
 **Résumé des Tests**
 
-|  Scénario |  Temps de Réponse Moyen (ms) | Succès  |  Échecs |
-|---|---|---|---|---|
+| Scénario  | Temps de Réponse Moyen (ms)  | Succès  |  Échecs |
+|---|---|---|---|
 | 1 utilisateur, 10 secondes   | 5.51   |  1809 |  0 |
 |  10 utilisateurs, 10 secondes |  14.47 | 5780  | 0  |
 |  100 utilisateurs, 10 secondes  | 107.17  | 7400  |  0 |
 | 500 utilisateurs, 10 secondes | 643.49 | 2994 | 6  |
 | 1000 utilisateurs, 10 secondes  | 1087.90  | 5237 | 763  |
 | 1000 utilisateurs, 1 minute | 1172.88  | 28417  | 1583 |
+
 
 **Observations**
 
